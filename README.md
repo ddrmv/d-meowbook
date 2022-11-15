@@ -1,10 +1,10 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=190&section=header&text=PROJECT:%20Acebook&fontSize=90&animation=fadeIn&desc=Team%20Priceless&descAlignY=75&descAlign=89)
 
-**Heroku APP:** https://dmeowbook.herokuapp.com/
-
 A social media website done as a team project for Makers.
 
-The project was created in two weeks by six Makers students, to improve our understanding of JavaScript and to practice teamwork, pair programming, problem solving, test-driving, team organisation, github workflow.
+The project was created in two weeks by six Makers students, to improve our understanding of JavaScript and to practice working in a team with agile and scrum practices, pair programming, problem solving, test-driving, github workflow.
+
+Deployed heroku app: https://dmeowbook.herokuapp.com/
 
 # Tech Stack
 
@@ -16,7 +16,7 @@ The project was created in two weeks by six Makers students, to improve our unde
 ![JSON Badge](https://img.shields.io/badge/JSON-000?logo=json&logoColor=fff&style=flat)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=fff&style=flat)
 
-### Frameworks & Library
+### Frameworks, Library
 
 ![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff&style=flat)
 ![Cypress Badge](https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=fff&style=flat)
@@ -28,14 +28,7 @@ The project was created in two weeks by six Makers students, to improve our unde
 ![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)
 ![npm Badge](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=flat)
 
-### Group
-
-![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat)
-![Slack Badge](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=fff&style=flat)
-![Trello Badge](https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=fff&style=flat)
-![Zoom Badge](https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=fff&style=flat)
-
-### IDE
+### IDE, Group, Other
 
 ![GNU Bash Badge](https://img.shields.io/badge/GNU%20Bash-4EAA25?logo=gnubash&logoColor=fff&style=flat)
 ![ESLint Badge](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=flat)
@@ -44,9 +37,12 @@ The project was created in two weeks by six Makers students, to improve our unde
 ![Postman Badge](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=fff&style=flat)
 ![Prettier Badge](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=fff&style=flat)
 ![Visual Studio Code Badge](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=flat)
-
-### Other tools used
-
+,
+![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat)
+![Slack Badge](https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=fff&style=flat)
+![Trello Badge](https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=fff&style=flat)
+![Zoom Badge](https://img.shields.io/badge/Zoom-2D8CFF?logo=zoom&logoColor=fff&style=flat)
+,
 ![GNU Emacs Badge](https://img.shields.io/badge/GNU%20Emacs-7F5AB6?logo=gnuemacs&logoColor=fff&style=flat)
 ![Krita Badge](https://img.shields.io/badge/Krita-3BABFF?logo=krita&logoColor=fff&style=flat)
 ![Vim Badge](https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=fff&style=flat)
@@ -68,7 +64,6 @@ Bearing in mind the EQ learning we’ve done with Dana and elsewhere, we want to
 **We plan to meet:**
 
 - At 10am for morning standup (15min)
-- Assign 1.5-day roles
 - At 1.30pm for afternoon standup (15min)
 - At 5pm for a retro at the end of the day
 
@@ -78,9 +73,9 @@ Bearing in mind the EQ learning we’ve done with Dana and elsewhere, we want to
 - Honesty
 - Growth
 - Teamwork and Support (Slack channel, Retros)
-- FUN!!!! (in that order)
+- FUN!!!!
 
-**These roles rotate every 2 days:**
+**These roles rotate every 1.5 days:**
 
 1. 👑**Scrum Master/Leader**
 
@@ -114,60 +109,61 @@ Bearing in mind the EQ learning we’ve done with Dana and elsewhere, we want to
    - Looks after the team’s tools and materials (github, etc.)
    - Makes sure everyone has the tools they need to do their job
 
-5. **Work Flows**
+**Work Flows**
 
-   - Pairing
+- Pairing
 
-     - Pull latest version of main
-     - Check-out a new branch / existing branch for your ticket
-     - Work in branch, and keep committing upstream
-     - Merge latest main again before pull request to avoid merge conflicts
-     - Submit pull-request
-     - Move card on Trello
-     - Add PR link to card
-     - Alert team on Slack
+  - Pull latest version of main
+  - Check-out a new branch / existing branch for your ticket
+  - Work in branch, and keep committing upstream
+  - Merge latest main again before pull request to avoid merge conflicts
+  - Submit pull-request
+  - Move card on Trello
+  - Add PR link to card
+  - Alert team on Slack
 
-   - Trello protocol
+- Trello protocol
 
-     - If a pair is working on it, it has your name on it
-     - If it needs review, it has the reviewers name
-     - If it has been reviewed and needs updating, it is in the Updating column
-     - If you are the second reviewer and all is ok, accept & merge
+  - If a pair is working on it, it has your name on it
+  - If it needs review, it has the reviewers name
+  - If it has been reviewed and needs updating, it is in the Updating column
+  - If you are the second reviewer and all is ok, accept & merge
 
-   - During pairings, resolve challenges by:
-     - Debugging and stuck on a 1 hour+ blocker? ask for help!
-     - Need to chat about something? Write on Slack
-     - Need to know the answer now? Directly join a pair with whom you’d like to discuss an urgent issue.
-     - Cannot move on unless big issue is resolved as a team? Ask scrum master for help
+- During pairings, resolve challenges by:
+  - Debugging and stuck on a 1 hour+ blocker? ask for help!
+  - Need to chat about something? Write on Slack
+  - Need to know the answer now? Directly join a pair with whom you’d like to discuss an urgent issue.
+  - Cannot move on unless big issue is resolved as a team? Ask scrum master for help
 
-6. **Stand-Up**
+**Stand-Up**
 
-   - Voice roles for the day
-   - Do any tasks need breaking down?
-   - Prioritise
-   - Estimate
-   - Sprint backlog
-   - Assign rand() pairs
+- Voice roles for the day
+- Do any tasks need breaking down?
+- Prioritise
+- Estimate
+- Sprint backlog
+- Assign rand() pairs
 
-7. **Retro**
-   - What did we think would happen, what actually happened?
-   - What went well, what could we do better tomorrow?
+**Retro**
+
+- What did we think would happen, what actually happened?
+- What went well, what could we do better tomorrow?
 
 # Images
 
-## Design
+## Design with Excalidraw
 
 ![Excalidraw chart](https://i.ibb.co/HpQndR3/Untitled-2022-10-19-1217-2.png)
 
-## Project workflow
+## Project management with Trello
 
 ![Excalidraw chart](https://i.imgur.com/UTLqqMw.png)
 
-## Testing
+## Test coverage with Jest
 
 ![Tests pass](https://i.ibb.co/zst63k3/Screenshot-2022-10-19-at-15-57-19.png)
 
-## Deployment
+## Deployment on Heroku
 
 ![Working app](https://i.imgur.com/h6RnOlT.png)
 
