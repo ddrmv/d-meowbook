@@ -4,6 +4,8 @@ A social media website done as a team project for Makers.
 
 The project was created in two weeks by six Makers students, to improve our understanding of JavaScript and to practice working in a team with agile and scrum practices, pair programming, problem solving, test-driving, github workflow.
 
+The initial state of the project includes database setup and a barebones web app. Additional functionality has been added by the team, complete with design, implementation and full test coverage.
+
 Deployed heroku app: https://dmeowbook.herokuapp.com/
 
 # Tech Stack
@@ -54,6 +56,56 @@ Deployed heroku app: https://dmeowbook.herokuapp.com/
 ![44jovi's GitHub stats](https://github-readme-stats.vercel.app/api?username=44jovi&&count_private=true&show_icons=true&include_all_commits=true&card_width=300px) ![MarinaIvanova-1 's GitHub stats](https://github-readme-stats.vercel.app/api?username=MarinaIvanova-1&count_private=true&show_icons=true&include_all_commits=true&card_width=300px)
 
 ![ritaaktay 's GitHub stats](https://github-readme-stats.vercel.app/api?username=ritaaktay&count_private=true&show_icons=true&include_all_commits=true&card_width=300px) ![oahciy's GitHub stats](https://github-readme-stats.vercel.app/api?username=oahciy&count_private=true&show_icons=true&include_all_commits=true&card_width=300px)
+
+# Installation
+
+### Make sure you have NPM and Node.js installed, then
+
+1. Clone this repository
+2. Install Node.js dependencies
+   ```
+   npm install
+   ```
+3. Install an ESLint plugin for your editor. For example: [linter-eslint](https://github.com/AtomLinter/linter-eslint) for Atom.
+4. Install [MongoDB@5](https://www.mongodb.com/docs/v5.0/administration/install-community/)
+
+5. Start MongoDB
+   ```
+   sudo systemctl start mongod
+   ```
+
+### Start
+
+1. Start the server
+   ```
+   npm start
+   ```
+2. Browse to [http://localhost:3000](http://localhost:3000)
+
+#### Start test server
+
+The server must be running locally with test configuration for the
+integration tests to pass.
+
+```
+npm run start:test
+```
+
+This starts the server on port `3030` and uses the `acebook_test` MongoDB database,
+so that integration tests do not interact with the development server.
+
+### Test
+
+- Run all tests
+  ```
+  npm test
+  ```
+- Run a check
+  ```bash
+  npm run lint              # linter only
+  npm run test:unit         # unit tests only
+  npm run test:integration  # integration tests only
+  ```
 
 # Team Charter
 
@@ -170,8 +222,7 @@ Bearing in mind the EQ learning we’ve done with Dana and elsewhere, we want to
 # Links
 
 1. [Google roles/resources](https://docs.google.com/spreadsheets/d/12W1ienkAIuIkCsyAgThxA8Il0xyo6a_CqvdKLII3vVM/edit#gid=0)
-2. [Team Member Roles](https://docs.google.com/document/d/16YMbgkPV1y3mP5z5rGexmKgbBvklUsb_bDbgFJKngCs/edit)
-3. [Miro board](https://miro.com/app/board/uXjVPPd0XIc=/)
-4. [Team Retro Board](https://easyretro.io/publicboard/yvO9jlUVtuWCUyEwCJjKGjwojn63/6d985c2d-55e7-45af-8893-89923c01440a)
+2. [Miro board](https://miro.com/app/board/uXjVPPd0XIc=/)
+3. [Team Retro Board](https://easyretro.io/publicboard/yvO9jlUVtuWCUyEwCJjKGjwojn63/6d985c2d-55e7-45af-8893-89923c01440a)
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer)
